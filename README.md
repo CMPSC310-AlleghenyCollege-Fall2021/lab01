@@ -3,30 +3,20 @@
 ## Table of Contents
 
 - [Summary](#summary)
-
 - [Objectives](#objectives)
-
 - [Agreement](#agreement)
-
 - [Code of Conduct](#code-of-conduct)
-
 - [Learning](#learning)
-
 - [Assignment Specification](#assignment-specification)
 
   - [Set Up](#set-up)
   - [Arduino Programming](#arduino-programming)
 
 - [Planning](#planning)
-
 - [Project Walkthrough](#project-walkthrough)
-
 - [Project Demonstration](#project-demonstration)
-
 - [Required Deliverables](#required-deliverables)
-
 - [Assignment Assessment](#assignment-assessment)
-
 - [System Commands](#system-commands)
 
   - [Using Docker](#using-docker)
