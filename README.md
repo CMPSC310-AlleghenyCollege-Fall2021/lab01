@@ -2,9 +2,10 @@
 
 ## Deadlines:
 
-- Project Planning: September 3rd by 11:30am
-- Project Walkthrough: September 8th, 3pm - 4:50pm
-- Code and Report: 
+- *Project Planning*: September 3rd by 11:30am
+- *Project Walkthrough*: September 8th, 3pm - 4:50pm
+- *Code and Report*: September 15th by 3pm
+- *Project Demonstration*: September 15th, 3pm - 4:50pm
 
 ## Table of Contents
 
@@ -14,21 +15,17 @@
 - [Code of Conduct](#code-of-conduct)
 - [Learning](#learning)
 - [Assignment Specification](#assignment-specification)
-
   - [Set Up](#set-up)
   - [Arduino Programming](#arduino-programming)
-
 - [Planning](#planning)
 - [Project Walkthrough](#project-walkthrough)
 - [Project Demonstration](#project-demonstration)
 - [Required Deliverables](#required-deliverables)
 - [Assignment Assessment](#assignment-assessment)
 - [System Commands](#system-commands)
-
   - [Using Docker](#using-docker)
   - [Using Gradle](#using-gradle)
   - [Automated Checks with GatorGrader](#automated-checks-with-gatorgrader)
-
 - [Receiving Assistance](receiving-assistance)
 
 ## Summary
