@@ -66,7 +66,7 @@ There are many examples for sample Arduino projects, including the following:
 
 - [ProjectHub](https://create.arduino.cc/projecthub)
 - [Arduino Projects](https://www.hackster.io/arduino/projects)
-- [DF robot](https://www.dfrobot.com/product-1454.html?search=Gravity%3A%20Starter%20Kit%20for%> 20Arduino&description=true)
+- [DF robot](https://www.dfrobot.com/product-1454.html?search=Gravity%3A%20Starter%20Kit%20for%%3E)
 - [Elegoo](https://www.elegoo.com/download/)
 
 Although you are encouraged to use the sample examples included with Arduino IDE or sample projects from existing online resources, your solution to this lab can not be just an existing project that you have put to practice. You must add at least one small extension or make a small change to the project providing an inspiration for your work. In your report document, you must also include a reference (URL is sufficient) to all resources that you have used when learning about Arduino and possible projects.
