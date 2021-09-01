@@ -65,7 +65,7 @@ Arduino platform makes it relatively easy to develop interactive applications th
 There are many examples for sample Arduino projects, including the following:
 
 - [ProjectHub](https://create.arduino.cc/projecthub)
-- [Arduino Projects](https://www.hackster.io/arduino/projects)
+- [Hackster](https://www.hackster.io/arduino/projects)
 - [DF robot](https://www.dfrobot.com/product-1454.html?search=Gravity%3A%20Starter%20Kit%20for%%3E)
 - [Elegoo](https://www.elegoo.com/download/)
 
