@@ -1,5 +1,11 @@
 # lab01_cs310f2021
 
+## Deadlines:
+
+- Project Planning: September 3rd by 11:30am
+- Project Walkthrough: September 8th, 3pm - 4:50pm
+- Code and Report: 
+
 ## Table of Contents
 
 - [Summary](#summary)
@@ -37,7 +43,7 @@ To apply concepts of agent types and agent environment to a practical applicatio
 
 ## Agreement
 
-This laboratory assignment will be completed in groups of two or three(max). Each team member must follow the community guidelines, including team guidelines, developed by the students in this class, included in this repository.
+This laboratory assignment will be completed in groups of two or three (max). Each team member must follow the community guidelines, including team guidelines, developed by the students in this class, included in this repository.
 
 By working on and completing this laboratory assignment you agree to use the hardware given to you in a responsible manner. Each team is responsible for the safety and security of the Arduino board and any sensors, motors, cables and other electronics equipment utilized for their lab. Malicious unsafe operation of the hardware by any team member will result in the inability of that team member to work with the hardware provided by the instructor.
 
@@ -49,9 +55,9 @@ Throughout the completion of this project you must adhere to the community guide
 
 ## Learning
 
-To review what you have learned about agents, their attributes, types, and environments, please read sections 1.3-1.5, 2.1-2.2 from the ``Artificial Intelligence: Foundations of Computational Agents'' textbook.
+To review what you have learned about agents, their attributes, types, and environments, please read sections 1.3-1.5, 2.1-2.2 from the [Artificial Intelligence: Foundations of Computational Agents](https://artint.info/2e/html/ArtInt2e.Ch1.html) textbook.
 
-If you have not done so already, please read all of the relevant [GitHub Guides](https://guides.github.com/) that explain how to use many of the features that GitHub provides. In particular, please make sure that you have read the following GitHub guides: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/), [Hello World](https://guides.github.com/activities/hello-world/), and [Documenting Your Projects on GitHub](https://guides.github.com/features/wikis/). Each of these guides will help you to understand how to use both [GitHub](http://github.com) and [GitHub Classroom](https://classroom.github.com/).
+If you have not done so already, please read all of the relevant [GitHub Guides](https://guides.github.com/) that explain how to use many of the features that GitHub provides. In particular, please make sure that you have read the following GitHub guides: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/), [Hello World](https://guides.github.com/activities/hello-world/), and [Documenting Your Projects on GitHub](https://guides.github.com/features/wikis/).
 
 ## Assignment Specification
 
@@ -70,7 +76,7 @@ Although you are encouraged to use the sample examples included with Arduino IDE
 
 ### Set Up
 
-Arduino programs are written in the Arduino Integrated Development Environment (IDE). In ALIC, Arduino IDE is already installed on the machines. If you would like to use your own laptop, you can obtain the necessary software from <https://www.arduino.cc/en/Main/Software>. You also have an option of developing and testing your program on Arduino Wed Editor https: //create.arduino.cc/editor.
+Arduino programs are written in the Arduino Integrated Development Environment (IDE). In ALIC, Arduino IDE is already installed on the machines. If you would like to use your own laptop, you can obtain the necessary software from [Arduino website](https://www.arduino.cc/en/Main/Software). You also have an option of developing and testing your program on [Arduino Wed Editor](https://create.arduino.cc/editor).
 
 ### Arduino Programming
 
@@ -84,7 +90,7 @@ void setup( ) {
 ...
 }
 void loop( ) {
-statements; ...
+   statements; ...
 }
 ```
 
@@ -101,7 +107,7 @@ During the lab session on Wednesday, September 8th, each team will participate i
 By this project walkthrough, each team should have identified the agent they plan to develop, have gotten to know Arduino IDE and hardware component interactions, and have started writing some code. During the walkthrough, the team members will collaboratively lead the walkthrough process, which should last 5-10 minutes for each team. Each team should:
 
 - Describe the chosen application.
-- Discuss what makes the agent being developed in this application "an agent", what its at- tributes, its type, and its environment are.
+- Discuss what makes the agent being developed in this application "an agent", what its attributes, its type, and its environment are.
 - Explain the written code.
 - Identify the steps left to complete for this project.
 
@@ -183,24 +189,26 @@ In Windows OS (replace `user` with your machine's username):
 docker run -it --rm --name dockagator -v "%cd%":/project -v "C:\Users\user/.dockagator":/root/.local/share gatoreducator/dockagator /bin/bash
 ```
 
-Once you have typed this command, you can use the [GatorGrader tool](https://github.com/GatorEducator/gatorgrader) in the Docker container by typing the command `gradle grade` in your terminal. Running this command will produce a lot of output that you should carefully inspect. If GatorGrader's output shows that there are no mistakes in the assignment, then your source code and writing are passing all of the automated baseline checks. However, if the output indicates that there are mistakes, then you will need to understand what they are and then try to fix them.
+Once you have typed this command, you can use the [GatorGrader tool](https://github.com/GatorEducator/gatorgrader) in the Docker container by typing the command `gradle grade` in your terminal.
 
 ## Automated Checks with GatorGrader
 
 In addition to meeting all of the requirements outlined in the assignment sheet, your submission must pass the following checks that [GatorGrader](https://github.com/GatorEducator/gatorgrader) automatically assesses. If [GatorGrader's](https://github.com/GatorEducator/gatorgrader) automated checks pass correctly, the tool will produce the output similar to the one below.
 
 ```
-✔  The file assessment.md exists in the  directory
-✔  The command output has exactly 0 of the 'TODO' fragment
-✔  The file conduct.md exists in the  directory
-✔  The report.md in  has at least 500 word(s) in total
-✔  The report.md in  has exactly 6 of the 'list' tag
-✔  The report.md in  has exactly 17 of the 'heading' tag
-✔  The report.md in  has at least 1 of the '![' tag
-✔  The repository has at least 3 commit(s)
-✔  The file report.md exists in the  directory
-✔  The command output has exactly 0 of the 'Add Your Name Here' fragment
-✔  The report.md in  has at least 1 of the 'code_block' tag
+✔  The report.md in writing has exactly 0 of the 'Add Your Names Here' fragment
+✔  The Application.ino in src/lab01/Application has at least 2 single-line Java comment(s)
+✔  The Application.ino in src/lab01/Application has exactly 0 of the 'TODO' fragment
+✔  The Application.ino in src/lab01/Application has exactly 1 of the 'setup(' fragment
+✔  The Application.ino in src/lab01/Application has exactly 0 of the 'Add Your Names Here' fragment
+✔  The report.md in writing has at least 1 of the 'list' tag
+✔  The report.md in writing has exactly 9 of the 'heading' tag
+✔  The repository has at least 10 commit(s)
+✔  The file Application.ino exists in the src/lab01/Application directory
+✔  The report.md in writing has at least 200 word(s) in total
+✔  The file report.md exists in the writing directory
+✔  The Application.ino in src/lab01/Application has at least 1 of the 'loop(' fragment
+✔  The report.md in writing has exactly 0 of the 'TODO' fragment
 ```
 
 ## Receiving Assistance
